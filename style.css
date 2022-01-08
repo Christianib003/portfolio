@@ -1,0 +1,90 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 400px;
+  height: 718px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(236, 233, 233);
+}
+
+.content {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 30px;
+  min-height: 100vh;
+  background-image: url(./Images/Background-shapes.png);
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 70px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  color: #172b4d;
+}
+
+p {
+  margin-top: -15px;
+  color: #344563;
+}
+
+h4 {
+  margin-top: -10px;
+  color: #7f8cff;
+}
+
+.navbar {
+  padding-top: 24px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.mylogo {
+  flex: 2;
+  height: 20px;
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 27px;
+  padding-left: 24px;
+  margin-top: -7px;
+}
+
+h5 {
+  width: 10px;
+  display: inline;
+}
+
+.menu {
+  padding-right: 24px;
+}
+
+.resize {
+  width: 20px;
+  height: 20px;
+  flex: 1;
+}
+
+.socials {
+  margin-right: 24px;
+  margin-top: -15px;
+  margin-left: -45px;
+  list-style-type: none;
+  display: flex;
+}
+
+.social {
+  padding: 5px;
+}
