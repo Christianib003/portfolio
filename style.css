@@ -37,8 +37,14 @@ body {
   height: 20px;
   color: #6070FF;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 27px;
   padding-left: 24px;
+ margin-top: -7px;
+}
+
+h5 {
+  width: 10px;
+  display: inline;
 }
 
 .menu {
