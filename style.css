@@ -26,7 +26,6 @@ body {
   background-color: white;
   background-repeat: no-repeat;
   border-bottom-left-radius: 70px;
-  height: 400px;
 }
 
 h1 {
@@ -44,7 +43,6 @@ p {
 h4 {
   margin-top: -10px;
   color: #7f8cff;
-  font-weight: 2px;
 }
 
 .navbar {
