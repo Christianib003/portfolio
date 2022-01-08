@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -82,7 +83,7 @@ h5 {
   top: 12px;
   margin-left: 24px;
   margin-right: 24px;
-  color: #7f8Cff;
+  color: #7f8cff;
 }
 
 .socials {
