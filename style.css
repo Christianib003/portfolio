@@ -91,6 +91,8 @@ h5 {
 
 .Works {
   margin-top: 114px;
+  display: grid;
+  grid-gap: 88px;
 }
 
 .card {
