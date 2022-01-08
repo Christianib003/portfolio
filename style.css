@@ -198,7 +198,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   padding: 65px 30px;
-  min-height: 115vh;
+  min-height: 120vh;
   background-color: white;
   border-top-right-radius: 70px;
   margin-top: 114px;
@@ -223,7 +223,7 @@ h2 {
 .lang {
   margin-right: 36px;
   margin-top: 12px;
-  margin-left: -38px;
+  margin-left: -5px;
   background-color: #f7f7f9;
   width: 330px;
   height: 67px;
@@ -243,8 +243,8 @@ h2 {
 }
 
 .text {
-  /* margin-left: 5px; */
   margin-top: 20px;
+  margin-left: 15px;
 }
 
 .frameworks {
