@@ -6,9 +6,11 @@ Building mobile skeleton version of personal website.
 - HTML
 - CSS
 
-## Live demo
+## Get Started
 
-[LiveDemo](http://127.0.0.1:5501/index.html)
+- git clone https://github.com/Christianib003/Portfolio-Moblie-Skeleton-Version
+- cd Portifolio-Moblie-Skeleton-Version
+- Open index.html
 
 ## Authors
 
