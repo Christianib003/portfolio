@@ -14,15 +14,14 @@ body {
 }
 
 .content {
- flex-direction: column;
- width: 400px;
- height: 587px;
- background-image: url(./Images/Background-shapes.png);
- background-size: 95% 100%;
- background-color: white;
- background-size: cover;
- border-bottom-left-radius: 70px;
- 
+  flex-direction: column;
+  width: 400px;
+  height: 587px;
+  background-image: url(./Images/Background-shapes.png);
+  background-size: 95% 100%;
+  background-color: white;
+  background-size: cover;
+  border-bottom-left-radius: 70px;
 }
 
 .navbar {
@@ -39,7 +38,7 @@ body {
   font-weight: 700;
   font-size: 27px;
   padding-left: 24px;
- margin-top: -7px;
+  margin-top: -7px;
 }
 
 h5 {
@@ -95,4 +94,3 @@ h5 {
 .social {
   padding: 5px;
 }
-
