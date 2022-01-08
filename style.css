@@ -28,7 +28,7 @@ body {
   border-bottom-left-radius: 70px;
 }
 
-h1 {
+.head1 {
   font-weight: bold;
   font-size: 35px;
   display: flex;
@@ -40,7 +40,7 @@ p {
   color: #344563;
 }
 
-h4 {
+.connect {
   margin-top: -10px;
   color: #7f8cff;
 }
@@ -190,4 +190,92 @@ h2 {
   text-align: center;
   line-height: 45px;
   width: 115px;
+}
+
+.About {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 30px;
+  min-height: 115vh;
+  background-color: white;
+  border-top-right-radius: 70px;
+  margin-top: 114px;
+}
+
+.second {
+  margin-top: 7px;
+}
+
+.Resume {
+  margin-left: 2px;
+  color: #6070ff;
+  border: solid #6070ff ;
+  border-width: thin;
+  border-radius: 10px;
+  height: 47px;
+  text-align: center;
+  line-height: 45px;
+  width: 143px;
+}
+
+.lang {
+  margin-right: 36px;
+  margin-top: 12px;
+  margin-left: -38px;
+  background-color: #f7f7f9;
+  width: 330px;
+  height: 67px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.list {
+  margin-top: 8px;
+}
+
+.imgs {
+  width: 48px;
+  height: 48px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.text {
+  /* margin-left: 5px; */
+  margin-top: 20px;
+}
+
+.frameworks {
+  width: 290px;
+}
+
+.frame {
+  border-bottom: solid #f7f7f9;
+  border-width: thin;
+  margin-left: -30px;
+  
+}
+
+.language {
+  list-style-type: none;
+  margin-left: -38px;
+}
+
+.forward {
+  margin-left: 30px;
+}
+
+.head2 {
+  color: white;
+  padding-top: 120px;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+.page {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
 }
