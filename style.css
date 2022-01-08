@@ -1,0 +1,92 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 400px;
+  height: 718px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(236, 233, 233);
+}
+
+.content {
+ flex-direction: column;
+ width: 400px;
+ height: 587px;
+ background-image: url(./Images/Background-shapes.png);
+ background-size: 95% 100%;
+ background-color: white;
+ background-size: cover;
+ border-bottom-left-radius: 70px;
+ 
+}
+
+.navbar {
+  padding-top: 24px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.mylogo {
+  flex: 2;
+  height: 20px;
+  color: #6070FF;
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 24px;
+}
+
+.menu {
+  padding-right: 24px;
+}
+.resize {
+  width: 20px;
+  height: 20px;
+  flex: 1;
+}
+
+.greeting {
+  padding-top: 128px;
+  width: 375px;
+  height: 150px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #172B4D;
+}
+
+.description {
+  margin-top: 36px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 375px;
+  height: 146px;
+  font-size: 16px;
+  color:  #344563;
+}
+
+.contact {
+  width: 117px;
+  height: 24px;
+  top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #7F8CFF;
+}
+
+.socials {
+  margin-right: 24px;
+  margin-top: 12px;
+  margin-left: 24px;
+}
+
+.social {
+  padding: 5px;
+}
+
