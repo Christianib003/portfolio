@@ -153,6 +153,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
+  padding-left: 20px;
 }
 
 .lang1 {
@@ -175,7 +176,7 @@ h2 {
   background-color: #ebebff;
   border-radius: 8px;
   text-align: center;
-  line-height: 23px;
+  padding-top: 5px;
 }
 
 .seeProject {
