@@ -181,7 +181,7 @@ h2 {
 .seeProject {
   margin-left: 16px;
   margin-top: 30px;
-  color: #6070ff;
+  color: #396df2;
   border: solid #6070ff;
   border-width: thin;
   border-radius: 10px;
@@ -192,7 +192,7 @@ h2 {
 }
 
 .About {
-  height: 400px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -201,6 +201,11 @@ h2 {
   background-color: white;
   border-top-right-radius: 70px;
   margin-top: 114px;
+}
+
+.About h1 {
+  color: #172b4d;
+  font-size: 40px;
 }
 
 .second {
@@ -276,4 +281,145 @@ h2 {
   color: white;
   font-size: 20px;
   font-weight: 400;
+}
+
+.lang-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-right: auto;
+  width: 327px;
+}
+
+.lang-list {
+  padding-left: 0;
+}
+
+.lang-details li {
+  list-style: none;
+}
+
+.drop-list,
+.frameworko,
+.lango {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drop-list {
+  margin-bottom: 36px;
+  margin-top: 25px;
+}
+
+.frameworko {
+  margin-bottom: 23px;
+  margin-top: 15px;
+}
+
+.lango {
+  margin-bottom: 23px;
+}
+
+.lango, .frameworko {
+  border-bottom: 1px solid #9d9ea0;
+  padding-bottom: 23px;
+}
+
+.card-tonic {
+  height: 546px;
+}
+
+.card-multi {
+  height: 590px;
+}
+
+.know-pa {
+  display: inline-block;
+  margin: auto 0px;
+  color: #253858;
+  font-size: 18px;
+  padding: 0px 0px 0px 20px;
+  font-weight: 600;
+}
+
+.drop-list h3,
+.frameworko h3,
+.lango h3 {
+  line-height: 24px;
+  right: 78px;
+  left: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.arrow{
+  border: 2px solid #acb7c3;
+  border-width: 0px 3px 3px 0px;
+  display:inline-block;
+  padding: 3px;
+  margin-top: 2px;
+}
+
+.arrow-down{
+  transform:  rotate(45deg);
+}
+
+.arrow-right {
+  transform:  rotate(-45deg);
+}
+
+.know {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.know-lang {
+  display: flex;
+  padding: 15px 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-color: #f7f7f9;
+}
+
+.social-media-connect-two {
+  height: 24px;
+  left: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  display: inline-block;
+  margin: 12px 24px;
+}
+
+.fab{
+  color:#505f79;
+  padding: 0px 8px;
+  font-size: 20px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button{
+  font-weight:500;
+  font-size: 16px;
+  font-family: 'poppins';
+}
+
+.image-container{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container img{
+  width: 100%;
+  display: inline-block;
 }
