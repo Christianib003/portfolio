@@ -321,7 +321,7 @@ h2 {
   margin-bottom: 23px;
 }
 
-.lango, 
+.lango,
 .frameworko {
   border-bottom: 1px solid #9d9ea0;
   padding-bottom: 23px;
@@ -400,18 +400,18 @@ h2 {
 
 .fab {
   color: #505f79;
-  padding: 0px 8px;
+  padding: 0 8px;
   font-size: 20px;
-}
-
-button:hover {
-  cursor: pointer;
 }
 
 button {
   font-weight: 500;
   font-size: 16px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-sarif;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .image-container {
