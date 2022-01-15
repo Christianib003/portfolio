@@ -321,7 +321,8 @@ h2 {
   margin-bottom: 23px;
 }
 
-.lango, .frameworko {
+.lango, 
+.frameworko {
   border-bottom: 1px solid #9d9ea0;
   padding-bottom: 23px;
 }
@@ -336,10 +337,10 @@ h2 {
 
 .know-pa {
   display: inline-block;
-  margin: auto 0px;
+  margin: auto;
   color: #253858;
   font-size: 18px;
-  padding: 0px 0px 0px 20px;
+  padding-left: 20px;
   font-weight: 600;
 }
 
@@ -352,20 +353,21 @@ h2 {
   font-size: 20px;
   font-weight: 500;
 }
-.arrow{
+
+.arrow {
   border: 2px solid #acb7c3;
-  border-width: 0px 3px 3px 0px;
-  display:inline-block;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
   padding: 3px;
   margin-top: 2px;
 }
 
-.arrow-down{
-  transform:  rotate(45deg);
+.arrow-down {
+  transform: rotate(45deg);
 }
 
 .arrow-right {
-  transform:  rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .know {
@@ -396,30 +398,30 @@ h2 {
   margin: 12px 24px;
 }
 
-.fab{
-  color:#505f79;
+.fab {
+  color: #505f79;
   padding: 0px 8px;
   font-size: 20px;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
-button{
-  font-weight:500;
+button {
+  font-weight: 500;
   font-size: 16px;
   font-family: 'poppins';
 }
 
-.image-container{
+.image-container {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.image-container img{
+.image-container img {
   width: 100%;
   display: inline-block;
 }
