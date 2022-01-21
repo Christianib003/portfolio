@@ -185,12 +185,12 @@
         <h1 class="contact-title">Contact me</h1>
         <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         <br>
-        <form class="contact-form">
-            <input type="text" class="area name" placeholder="Name" maxlength="30" required>
+        <form action="https://formspree.io/f/mvolzwlj" method="POST" class="contact-form">
+            <input type="text" name="Name" class="area name" placeholder="Name" maxlength="30" required>
             <br>
-            <input type="email" name="email" class="area email" placeholder="email">
+            <input type="email" name="email" class="area email" placeholder="Email" required>
             <br>
-            <textarea name="message" class="message" maxlength="500" placeholder="Write your message here"></textarea>
+            <textarea name="message" class="message" maxlength="500" placeholder="Write your message here" required></textarea>
             <br>
         </form>
         </div>
