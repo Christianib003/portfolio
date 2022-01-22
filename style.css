@@ -471,7 +471,7 @@ button:hover {
   outline: none;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  background: #ffffff;
+  background: #fff;
   align-items: center;
 }
 
@@ -490,7 +490,7 @@ button:hover {
 }
 
 textarea {
-  height: 150px;
+  height: 500px;
   outline: none;
   padding-left: 16px;
   padding-top: 10px;
@@ -502,23 +502,22 @@ textarea {
   color: #6070ff;
   width: 150px;
   height: 50px;
-  height: 50px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  background: #ffffff;
-  margin-left: 24px;
+  background: #fff;
+  margin-top: 10px;
 }
 
 .message {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  background: #ffffff;
+  background: #fff;
 }
 
 .scroll-bar {
   width: 134px;
   height: 5px;
-  background: #0d151E;
+  background: #0d151e;
   border-radius: 10px;
   margin-top: 30px;
   margin-left: auto;
