@@ -490,7 +490,7 @@ button:hover {
 }
 
 textarea {
-  height: 150px;
+  height: 500px;
   outline: none;
   padding-left: 16px;
   padding-top: 10px;
@@ -505,7 +505,7 @@ textarea {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   background: #fff;
-  margin-left: 24px;
+  margin-top: 10px;
 }
 
 .message {
@@ -527,3 +527,4 @@ textarea {
 textarea.message::placeholder {
   color: #b3bac5;
 }
+
