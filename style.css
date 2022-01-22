@@ -13,10 +13,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(236, 233, 233);
 }
-.desktop-nav{
+
+.desktop-nav {
   display: none;
   margin-right: 154px;
 }
+
 .content {
   height: auto;
   display: flex;
@@ -31,7 +33,7 @@ body {
   border-bottom-left-radius: 70px;
 }
 
-header{
+header {
   width: 100%;
 }
 
@@ -126,6 +128,7 @@ h2 {
   height: 36px;
   margin-top: -2px;
 }
+
 .dimi {
   font-size: 30px;
 }
@@ -525,7 +528,7 @@ textarea {
   background: #fff;
   margin-top: 10px;
 }
- 
+
 .message {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
@@ -564,6 +567,7 @@ textarea.message::placeholder {
     list-style: none;
     padding: 0 8px;
   }
+  
   .nav-list li a {
     text-decoration: none;
     cursor: pointer;
@@ -572,13 +576,13 @@ textarea.message::placeholder {
   }
 
   .container {
-    padding:0 50px;
+    padding: 0 50px;
   }
 
-  .About { 
-    flex-direction: row; 
+  .About {
+    flex-direction: row;
     min-height: auto;
-    padding-bottom: 150px;  
+    padding-bottom: 150px;
   }
 
   .lang-details,
@@ -647,17 +651,17 @@ textarea.message::placeholder {
   .media img {
     display: inline-block;
     width: 100%;
-    padding:0;
+    padding: 0;
     overflow: hidden;
   }
-  
+ 
   .last {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top:-100px;
+    margin-top: -100px;
     background-image: url(./Images/desktop_contact_form_background.png);
     background-position-x: 75.3px;
     background-size: contain;
@@ -682,7 +686,7 @@ textarea.message::placeholder {
     background-size: 90% 98%;
     background-position-x: 90.5px;
   }
- 
+
   .mylogo {
     margin-left: 155px;
   }
@@ -718,7 +722,7 @@ textarea.message::placeholder {
     display: flex;
     justify-content: left;
   }
-  
+
   .lang2,
   .lang3 {
     margin-left: 20px;
