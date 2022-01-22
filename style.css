@@ -553,7 +553,7 @@ textarea.message::placeholder {
   .small-devices-nav {
     display: none;
   }
- 
+
   .desktop-nav {
     display: flex;
   }
@@ -567,7 +567,7 @@ textarea.message::placeholder {
     list-style: none;
     padding: 0 8px;
   }
-  
+
   .nav-list li a {
     text-decoration: none;
     cursor: pointer;
@@ -637,7 +637,7 @@ textarea.message::placeholder {
   .card:nth-child(odd) {
     flex-direction: row;
   }
- 
+
   .media,
   .card-content {
     flex: 1;
@@ -654,7 +654,7 @@ textarea.message::placeholder {
     padding: 0;
     overflow: hidden;
   }
- 
+
   .last {
     display: flex;
     flex-direction: column;
@@ -715,7 +715,7 @@ textarea.message::placeholder {
   }
 
   .double {
-   margin-left: 30px;
+    margin-left: 30px;
   }
 
   .langs {
