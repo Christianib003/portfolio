@@ -511,7 +511,7 @@ button:hover {
 }
 
 textarea {
-  height: 500px;
+  min-height: 200px;
   outline: none;
   padding-left: 16px;
   padding-top: 10px;
