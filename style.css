@@ -728,7 +728,7 @@ textarea.message::placeholder {
     margin-left: 20px;
   }
 
-  .trois {
+  .trois:hover {
     background-color: #6070ff;
     color: white;
   }
@@ -742,9 +742,11 @@ textarea.message::placeholder {
     color: white;
   }
 
-  .seeProject:hover {
-    background-color: #6070ff;
-    color: white;
+  .disabled {
+    pointer-events: none;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
   }
 
   .Resume:hover {
@@ -752,9 +754,9 @@ textarea.message::placeholder {
     color: white;
   }
 
-  .trois:hover {
-    background-color: white;
-    color: #6070ff;
+  .active:focus {
+    background-color: #6070ff;
+    color: white;
   }
 
   .image:hover {
