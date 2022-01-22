@@ -5,7 +5,7 @@ html {
 }
 
 html {
-  width: 400px;
+  width: 100%;
   height: 718px;
 }
 
@@ -13,9 +13,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(236, 233, 233);
 }
-
+.desktop-nav{
+  display: none;
+  margin-right: 154px;
+}
 .content {
-  height: 400px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -28,6 +31,10 @@ body {
   border-bottom-left-radius: 70px;
 }
 
+header{
+  width: 100%;
+}
+
 .head1 {
   font-weight: bold;
   font-size: 35px;
@@ -38,6 +45,7 @@ body {
 p {
   margin-top: -15px;
   color: #344563;
+  padding-right: 16px;
 }
 
 .connect {
@@ -60,6 +68,7 @@ p {
   font-size: 27px;
   padding-left: 24px;
   margin-top: -7px;
+  width: 100%;
 }
 
 h5 {
@@ -98,9 +107,9 @@ h5 {
 .card {
   background-color: white;
   border-radius: 16px;
-  width: 327px;
+  width: 95%;
   height: 552px;
-  margin: auto;
+  margin-left: 10px;
 }
 
 .image {
@@ -117,6 +126,9 @@ h2 {
   height: 36px;
   margin-top: -2px;
 }
+.dimi {
+  font-size: 30px;
+}
 
 .canopy {
   list-style-type: none;
@@ -131,6 +143,10 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-right: 75px;
+}
+
+.cc {
+  margin-top: 24px;
 }
 
 .double {
@@ -182,7 +198,7 @@ h2 {
 
 .seeProject {
   margin-left: 16px;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #396df2;
   border: solid #6070ff;
   border-width: thin;
@@ -290,7 +306,7 @@ h2 {
   flex-direction: column;
   margin-top: 35px;
   margin-right: auto;
-  width: 327px;
+  width: 100%;
   height: 700px;
 }
 
@@ -431,13 +447,13 @@ button:hover {
 
 .last {
   min-height: 70vh;
+  width: 100%;
   background-image: url(./Images/contact-form-background.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   border-top-left-radius: 70px;
   background-position: right;
   background-position-y: 30px;
-  height: 800px;
   margin-top: -100px;
 }
 
@@ -446,6 +462,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
+  width: 100%;
 }
 
 .contact-title {
@@ -465,7 +482,7 @@ button:hover {
 }
 
 .area {
-  width: 330px;
+  /* width: 90%; */
   height: 50px;
   padding-left: 16px;
   outline: none;
@@ -481,6 +498,7 @@ button:hover {
   justify-content: center;
   padding-left: 24px;
   padding-right: 24px;
+  width: 80%;
 }
 
 ::placeholder {
@@ -507,7 +525,7 @@ textarea {
   background: #fff;
   margin-top: 10px;
 }
-
+ 
 .message {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
@@ -526,4 +544,188 @@ textarea {
 
 textarea.message::placeholder {
   color: #b3bac5;
+}
+
+@media only screen and (min-width: 992px) {
+  .small-devices-nav {
+    display: none;
+  }
+ 
+  .desktop-nav {
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+    padding-right: 20px;
+  }
+
+  .nav-list li {
+    list-style: none;
+    padding: 0 8px;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #344563;
+    font-size: 15px;
+  }
+
+  .container {
+    padding:0 50px;
+  }
+
+  .About { 
+    flex-direction: row; 
+    min-height: auto;
+    padding-bottom: 150px;  
+  }
+
+  .lang-details,
+  .about-content {
+    width: 50%;
+    height: auto;
+  }
+
+  .lang-list {
+    width: 100%;
+  }
+
+  .know {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .know-lang {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 10px 0 0;
+  }
+
+  .lang-one {
+    width: 100%;
+  }
+
+  .image-container {
+    width: 30px;
+    height: 30px;
+  }
+
+  .know-pa {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    display: flex;
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .card:nth-child(odd) {
+    flex-direction: row;
+  }
+ 
+  .media,
+  .card-content {
+    flex: 1;
+  }
+
+  .media {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .media img {
+    display: inline-block;
+    width: 100%;
+    padding:0;
+    overflow: hidden;
+  }
+  
+  .last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top:-100px;
+    background-image: url(./Images/desktop_contact_form_background.png);
+    background-position-x: 75.3px;
+    background-size: contain;
+  }
+
+  .footer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit {
+    margin: auto;
+  }
+
+  .content {
+    min-height: 400px;
+    background-image: url(./Images/desktop_header_background.png);
+    background-repeat: no-repeat;
+    background-size: 90% 98%;
+    background-position-x: 90.5px;
+  }
+ 
+  .mylogo {
+    margin-left: 155px;
+  }
+
+  .head1 {
+    margin-left: 260px;
+  }
+
+  .head-p {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .connect {
+    margin-left: 260px;
+  }
+
+  .socials {
+    margin-left: 260px;
+    padding-left: 0;
+  }
+
+  .triple {
+    display: flex;
+    justify-content: left;
+  }
+
+  .double {
+   margin-left: 30px;
+  }
+
+  .langs {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .lang2,
+  .lang3 {
+    margin-left: 20px;
+  }
+
+  .trois {
+    background-color: #6070ff;
+    color: white;
+  }
 }
