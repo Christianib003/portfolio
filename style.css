@@ -5,7 +5,7 @@ html {
 }
 
 html {
-  width: 400px;
+  width: 100%;
   height: 718px;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .content {
-  height: 400px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -28,6 +28,10 @@ body {
   border-bottom-left-radius: 70px;
 }
 
+header{
+  width: 100%;
+}
+
 .head1 {
   font-weight: bold;
   font-size: 35px;
@@ -38,6 +42,7 @@ body {
 p {
   margin-top: -15px;
   color: #344563;
+  padding-right: 16px;
 }
 
 .connect {
@@ -60,6 +65,7 @@ p {
   font-size: 27px;
   padding-left: 24px;
   margin-top: -7px;
+  width: 100%;
 }
 
 h5 {
@@ -98,9 +104,9 @@ h5 {
 .card {
   background-color: white;
   border-radius: 16px;
-  width: 327px;
+  width: 95%;
   height: 552px;
-  margin: auto;
+  margin-left: 10px;
 }
 
 .image {
@@ -117,6 +123,9 @@ h2 {
   height: 36px;
   margin-top: -2px;
 }
+.dimi {
+  font-size: 30px;
+}
 
 .canopy {
   list-style-type: none;
@@ -131,6 +140,10 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-right: 75px;
+}
+
+.cc {
+  margin-top: 24px;
 }
 
 .double {
@@ -290,7 +303,7 @@ h2 {
   flex-direction: column;
   margin-top: 35px;
   margin-right: auto;
-  width: 327px;
+  width: 100%;
   height: 700px;
 }
 
@@ -431,13 +444,13 @@ button:hover {
 
 .last {
   min-height: 70vh;
+  width: 100%;
   background-image: url(./Images/contact-form-background.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   border-top-left-radius: 70px;
   background-position: right;
   background-position-y: 30px;
-  height: 800px;
   margin-top: -100px;
 }
 
@@ -446,6 +459,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
+  width: 100%;
 }
 
 .contact-title {
@@ -465,7 +479,7 @@ button:hover {
 }
 
 .area {
-  width: 330px;
+  /* width: 90%; */
   height: 50px;
   padding-left: 16px;
   outline: none;
@@ -481,6 +495,7 @@ button:hover {
   justify-content: center;
   padding-left: 24px;
   padding-right: 24px;
+  width: 80%;
 }
 
 ::placeholder {
@@ -507,7 +522,7 @@ textarea {
   background: #fff;
   margin-top: 10px;
 }
-
+ 
 .message {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
