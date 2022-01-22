@@ -732,4 +732,8 @@ textarea.message::placeholder {
     background-color: #6070ff;
     color: white;
   }
+  
+  .true {
+    margin-left: 0;
+  }
 }
