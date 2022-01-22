@@ -732,8 +732,33 @@ textarea.message::placeholder {
     background-color: #6070ff;
     color: white;
   }
-  
+
   .true {
     margin-left: 0;
+  }
+
+  .submit:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .seeProject:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .Resume:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .trois:hover {
+    background-color: white;
+    color: #6070ff;
+  }
+
+  .image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px ;
   }
 }
