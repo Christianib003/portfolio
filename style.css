@@ -549,6 +549,12 @@ textarea.message::placeholder {
   color: #b3bac5;
 }
 
+.small-devices-nav {
+  font-size: 24px;
+  color: #6070ff;
+  margin-right: 20px;
+}
+
 @media only screen and (min-width: 992px) {
   .small-devices-nav {
     display: none;
