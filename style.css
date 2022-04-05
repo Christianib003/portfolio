@@ -44,15 +44,10 @@ header {
   color: #172b4d;
 }
 
-p {
+.head-p {
   margin-top: -15px;
   color: #344563;
   padding-right: 16px;
-}
-
-.connect {
-  margin-top: -10px;
-  color: #7f8cff;
 }
 
 .navbar {
@@ -125,8 +120,14 @@ h2 {
   font-size: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  height: 36px;
   margin-top: -2px;
+}
+
+.connect {
+  margin-top: -10px;
+  color: #7f8cff;
+  font-size: 22px;
+  padding-left: 0;
 }
 
 .dimi {
@@ -227,6 +228,7 @@ h2 {
 .About .about-title {
   color: #172b4d;
   font-size: 40px;
+  padding-left: 0;
 }
 
 .second {
@@ -474,6 +476,7 @@ button:hover {
   display: flex;
   text-align: center;
   color: white;
+  height: 30px;
 }
 
 .contact-description {
@@ -547,12 +550,6 @@ textarea {
 
 textarea.message::placeholder {
   color: #b3bac5;
-}
-
-.small-devices-nav {
-  font-size: 24px;
-  color: #6070ff;
-  margin-right: 20px;
 }
 
 @media only screen and (min-width: 992px) {
