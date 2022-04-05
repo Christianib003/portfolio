@@ -2,6 +2,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 
 html {
@@ -17,6 +18,12 @@ body {
 .desktop-nav {
   display: none;
   margin-right: 154px;
+}
+
+.fas {
+  color: #6070ff;
+  font-size: 25px;
+  margin-right: 24px;
 }
 
 .content {
@@ -77,10 +84,41 @@ header {
   padding-right: 24px;
 }
 
-.resize {
-  width: 20px;
-  height: 20px;
-  flex: 1;
+.background {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  backdrop-filter: blur(3px);
+}
+
+.menu-small {
+  position: fixed;
+  background-color: #6070ff;
+  height: 100vh;
+  margin-top: -17px;
+  padding-top: 40px;
+  opacity: 0.9;
+  display: none;
+}
+
+.fa-times {
+  color: whitesmoke;
+  float: right;
+}
+
+.options li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 90vw;
+  backdrop-filter: blur(4px);
+}
+
+.option {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 32px;
 }
 
 .socials {
