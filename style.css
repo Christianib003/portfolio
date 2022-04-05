@@ -126,7 +126,7 @@ h2 {
 .connect {
   margin-top: -10px;
   color: #7f8cff;
-  font-size: 24px;
+  font-size: 22px;
   padding-left: 0;
 }
 
@@ -472,7 +472,7 @@ button:hover {
 
 .contact-title {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   text-align: center;
   color: white;
