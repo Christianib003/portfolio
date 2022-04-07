@@ -17,11 +17,11 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
-<body>
+<body id="body">
     <header>
-        <div class="background"></div>
-        <div class="menu-small">
-            <span><i class="fas fa-times"></i></span>
+        <div class="background" id="background"></div>
+        <div class="menu-small" id="menu-mobile">
+            <span><i class="fas fa-times" id="close-btn"></i></span>
             <ul class="options">
                 <li>
                     <a href="#portfolio" class="option">Portfolio</a>
@@ -52,7 +52,7 @@
                     </li>
                 </ul>
             </nav>
-            <span class="small-devices-nav"><i class="fas fa-bars"></i></span>
+            <span class="small-devices-nav"><i class="fas fa-bars" id="bars-menu"></i></span>
         </div>
     </header>
     <section class="content">
@@ -250,5 +250,6 @@
         </div>
         <div class="scroll-bar"></div>
     </section>
+    <script src="./app.js"></script>
 </body>
 </html>

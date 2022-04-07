@@ -2,7 +2,10 @@ body,
 html {
   margin: 0;
   padding: 0;
-  overflow: auto;
+}
+
+#body {
+  overflow: visible;
 }
 
 html {
@@ -85,26 +88,27 @@ header {
 }
 
 .background {
-  display: none;
   height: 100vh;
   width: 100vw;
-  position: absolute;
-  backdrop-filter: blur(3px);
+  position: fixed;
+  backdrop-filter: blur(4px);
+  display: none;
 }
 
 .menu-small {
+  display: none;
   position: fixed;
-  background-color: #6070ff;
-  height: 100vh;
+  background-color: #396df2;
+  height: 101vh;
   margin-top: -17px;
   padding-top: 40px;
-  opacity: 0.9;
-  display: none;
+  opacity: 0.75;
 }
 
 .fa-times {
   color: whitesmoke;
   float: right;
+  margin-right: 35px;
 }
 
 .options li {
@@ -119,6 +123,7 @@ header {
   color: whitesmoke;
   text-decoration: none;
   font-size: 32px;
+  font-weight: 600;
 }
 
 .socials {
