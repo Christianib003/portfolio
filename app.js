@@ -19,7 +19,7 @@ closeBtn.addEventListener('click', () => {
   body.style.overflow = 'visible';
 });
 
-for (let i = 0; i < options.length; i++) {
+for (let i = 0; i < options.length; i += 1) {
   options[i].addEventListener('click', () => {
     dropDown.style.display = 'none';
     overlay.style.display = 'none';
