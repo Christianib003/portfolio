@@ -17,8 +17,24 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
-<body>
+<body id="body">
     <header>
+        <div class="background" id="background"></div>
+        <div class="menu-small" id="menu-mobile">
+            <span><i class="fas fa-times" id="close-btn"></i></span>
+            <ul class="options">
+                <li>
+                    <a href="#portfolio" class="option">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#about" class="option">About</a>
+                </li>
+                <li>
+                    <a href="#contact" class="option">Contact</a>
+                </li>
+            </ul>
+        </div>
+        
         <div class="navbar">
             <div class="mylogo">
                 <p class="logo">CB</p>
@@ -57,7 +73,7 @@
     <div class="container">
 
         <!-- second page -->
-        <section class="Works">
+        <section class="Works" id="portfolio">
             <!-- card 1 -->
             <div class="card">
                 <div class="media">
@@ -155,7 +171,7 @@
             </div>
         </section>
     </div>
-    <section class="About Myself">
+    <section class="About Myself" id="about">
         <div class="about-content">
             <h2 class="about-title">About<br> Myself</h2>
             <p>I’m a software developer! I can help you build a product , feature or website
@@ -217,7 +233,7 @@
             </ul>
         </section>
     </section>
-    <section class="last">
+    <section class="last" id="contact">
         <div class="footer">
         <h2 class="contact-title">Contact me</h2>
         <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -234,5 +250,6 @@
         </div>
         <div class="scroll-bar"></div>
     </section>
+    <script src="./app.js"></script>
 </body>
 </html>
