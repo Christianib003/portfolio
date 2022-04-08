@@ -98,11 +98,11 @@ header {
 .menu-small {
   display: none;
   position: fixed;
-  background-color: #396df2;
+  background-color: #071de1;
   height: 101vh;
   margin-top: -17px;
   padding-top: 40px;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .fa-times {
