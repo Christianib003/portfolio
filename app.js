@@ -138,7 +138,8 @@ for (let i = 0; i < projectsList.length; i += 1) {
               <a href="${projectsList[i].demoLink}"><button type="button" class="popUp-btn"> See Live <i class="fa fa-external-link"></i></button></a>
               <a href="${projectsList[i].sourceLink}"><button type="button" class="popUp-btn">See source<i class="fab fa-github git-pop"></i></button></a>
           </div>
-      </div>`
+      </div>
+    `
   });
   document.addEventListener('click', (action) => {
     if (action.target.id === 'closee') {
