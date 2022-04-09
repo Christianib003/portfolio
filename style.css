@@ -698,7 +698,7 @@ textarea.message::placeholder {
 }
 
 .fa-external-link {
-  font-size: 13px ;
+  font-size: 13px;
 }
 
 .second-pop {
@@ -973,6 +973,7 @@ textarea.message::placeholder {
     display: flex;
     width: 13vw;
   }
+
   .desk-pop {
     display: block;
   }
@@ -1004,7 +1005,4 @@ textarea.message::placeholder {
     justify-content: space-between;
     margin-top: 20px;
   }
-
-
-
 }
