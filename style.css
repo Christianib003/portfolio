@@ -711,6 +711,14 @@ textarea.message::placeholder {
   margin-left: 2vw;
 }
 
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin: auto;
+  font-style: italic;
+  display: none;
+}
+
 @media only screen and (min-width: 992px) {
   .small-devices-nav {
     display: none;
