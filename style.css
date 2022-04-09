@@ -88,11 +88,15 @@ header {
 }
 
 .background {
-  height: 100vh;
+  height: 101vh;
   width: 100vw;
   position: fixed;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   display: none;
+  bottom: 0;
+  top: 0;
+  background-color: #071de1;
+  opacity: 0.3;
 }
 
 .menu-small {
@@ -173,7 +177,7 @@ h2 {
   padding-left: 0;
 }
 
-.dimi {
+.project-name {
   font-size: 30px;
 }
 
@@ -595,6 +599,118 @@ textarea.message::placeholder {
   color: #b3bac5;
 }
 
+.popUp {
+  width: 85vw;
+  margin: 0 6vw 0 8vw;
+  border-radius: 10px;
+  padding: 10px 0 0 0;
+  display: none;
+  top: 20px;
+  position: fixed;
+  background-color: white;
+}
+
+.popUp-title {
+  margin: 0;
+}
+
+.close-btn {
+  color: #6e7e97;
+  padding: 10px 0 0 0;
+  margin-right: 4vw;
+  font-size: 22px;
+}
+
+.popUp-list {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0 0 10px -25px;
+}
+
+.popUp-list .list-choice {
+  font-size: 12px;
+  margin: 0 7vw 0 0;
+  color: #32353a;
+}
+
+.canopyy {
+  list-style-type: none;
+  color: #1b1d1f;
+  font-weight: bold;
+}
+
+.popUp-image {
+  width: 93%;
+  margin: auto;
+}
+
+.image-pop {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-pop {
+  font-size: 13px;
+  margin: 10px 1vw 0 3vw;
+  color: #32353a;
+}
+
+.right-popList {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 15px 0 20px -28px;
+  list-style-type: none;
+}
+
+.right-list {
+  margin: 0 10% 0 0;
+  font-size: 12px;
+  color: #396df2;
+  padding: 0 5px 0 5px;
+  border-radius: 4px;
+  background-color: #babfed;
+}
+
+.desk-pop {
+  display: none;
+  font-size: 13px;
+}
+
+.popUp-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 2vw 4vw 2vw;
+}
+
+.popUp-btn {
+  border-radius: 6px;
+  height: 40px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  font-size: 14px;
+  width: 39vw;
+}
+
+.git-pop {
+  color: #6070ff;
+  font-size: 13px;
+}
+
+.fa-external-link {
+  font-size: 13px;
+}
+
+.second-pop {
+  display: none;
+}
+
+.shiftt {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2vw;
+}
+
 @media only screen and (min-width: 992px) {
   .small-devices-nav {
     display: none;
@@ -808,5 +924,85 @@ textarea.message::placeholder {
   .image:hover {
     transform: scale(1.02);
     box-shadow: 0 0 5px;
+  }
+
+  .popUp {
+    border: 1px solid black;
+    width: 70vw;
+    position: fixed;
+    margin: 0 15vw 0 15vw;
+    z-index: 200;
+    background-color: white;
+    top: 0;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  .popUp-title {
+    margin: 0 0 0 1vw;
+  }
+
+  .popUp-list {
+    margin: 0 0 20px 0;
+  }
+
+  .second-pop {
+    display: block;
+    margin: 0;
+  }
+
+  .image-pop {
+    width: 70vw;
+    margin: auto;
+  }
+
+  .right-popList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 -10px;
+  }
+
+  .shiftt {
+    display: flex;
+    margin: 0 0 10px 0;
+    width: 10vw;
+  }
+
+  .drop {
+    display: flex;
+    width: 13vw;
+  }
+
+  .desk-pop {
+    display: block;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popUp-btn {
+    width: 11vw;
+  }
+
+  .paragraph-pop {
+    width: 38vw;
+  }
+
+  .left-pop {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popUp-buttons {
+    width: 23vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
   }
 }
