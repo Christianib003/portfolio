@@ -6,8 +6,6 @@ const closeBtn = document.querySelector('#close-btn');
 const body = document.getElementById('body');
 const options = document.querySelectorAll('.option');
 const overlay = document.querySelector('#background');
-const modalImage = document.querySelector('.popUp-image');
-const modalName = document.querySelector('.popUp-title');
 
 menuBtn.addEventListener('click', () => {
   dropDown.style.display = 'block';
@@ -30,10 +28,7 @@ for (let i = 0; i < options.length; i += 1) {
 }
 
 // WORK SECTION
-
-const projectName = document.querySelector('.project-name');
 const workSection = document.querySelector('#portfolio');
-
 
 const projectsList = [
   {
@@ -60,7 +55,7 @@ const projectsList = [
     demoLink: 'https://christianib003.github.io/Portfolio-Moblie-Skeleton-Version/',
   },
 
-   {
+  {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     imageLink: './Images/Snapshoot-page-4.png',
@@ -108,7 +103,7 @@ popUp.classList.add('popUp');
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
-    popUp.style.display ='block';
+    popUp.style.display = 'block';
     body.appendChild(popUp);
     overlay.style.display = 'block';
     popUp.innerHTML = `
@@ -152,7 +147,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
     if (action.target.id === 'closee') {
       popUp.style.display = 'none';
       overlay.style.display = 'none';
-    }
+    };
   });
 }
 
