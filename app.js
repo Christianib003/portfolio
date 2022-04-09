@@ -148,3 +148,21 @@ for (let i = 0; i < projectsList.length; i += 1) {
     }
   });
 }
+
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('#email-input');
+const error = document.querySelector('.error-message');
+
+function formValidate() {
+  if (email.value !== email.value.toLowerCase()) {
+    return false;
+  }
+  return true;
+}
+
+form.addEventListener('submit', (postIt) => {
+  if (!formValidate()) {
+    error.style.display = 'block';
+    postIt.preventDefault();
+  }
+});
