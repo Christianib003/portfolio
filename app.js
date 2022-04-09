@@ -114,7 +114,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
               <li class="list-choice">${projectsList[i].role}</li>
               <li class="list-choice">${projectsList[i].year}</li>
           </ul>
-          <div class="image-pop"><img src="./Images/Snapshoot-page-2.png" alt="" class="popUp-image"></div>
+          <div class="image-pop"><img src="${projectsList[i].imageLink}" alt="" class="popUp-image"></div>
           
       </div>
       <div class="lower">
