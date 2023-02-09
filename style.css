@@ -725,16 +725,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 425px) {
-  .resume-btn {
-    margin-top: 500px;
-  }
-
-  .textme {
-    font-size: small;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .resume-btn {
     margin-top: 500px;
