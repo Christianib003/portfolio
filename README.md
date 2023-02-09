@@ -1,5 +1,10 @@
-# Portfolio-Moblie-Skeleton-Version
-Building mobile skeleton version of personal website.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Portfolio
+
+> Creating my portfolio website to showcase my development skills
+
+![screenshot](./mobilepop.png)
 
 
 
@@ -7,30 +12,55 @@ Building mobile skeleton version of personal website.
 
 - HTML
 - CSS
+- Linters
+- Figma
+- Javascript
+- VS code
 
 ## Live Demo
- 
- [Live Demo Link](https://christianib003.github.io/Portfolio-Moblie-Skeleton-Version/)
 
-## Get Started
+For the link to the live demo, [Click here](https://ilynette.github.io/my-portfolio/)
 
-- git clone https://github.com/Christianib003/Portfolio-Moblie-Skeleton-Version
-- cd Portifolio-Moblie-Skeleton-Version
-- Open index.html
+Prerequisites
+
+You only need a browser to run the html file.
+
+
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@Christianib003](https://github.com/Christianib003)
-- LinkedIn: [@Christian Iradukunda Byiringiro](https://www.linkedin.com/in/christian-iradukunda-byiringiro-657598226)
+- GitHub: [@iLynette](https://github.com/iLynette)
+- Twitter: [@achola_lynette](https://twitter.com/acholah_lynette)
+- LinkedIn: [Lynette Acholah](https://www.linkedin.com/in/lynette-acholah/)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/i-max-xi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/appiah-maxwell-0212b41a1/)
+
+👤 **Author3**
+- GitHub: [@githubhandle](https://github.com/levy002)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/levy-ukwishaka-405391223)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 
-Please, give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

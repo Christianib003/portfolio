@@ -1,160 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./popup.css">
+    <title>Christian's portfolio</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217435772-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    gtag('config', 'UA-217435772-1');
+    </script>
+
 </head>
+<body>
+        <header>
+            <div class="container">
+                <h1 class="logo">Welcome</h1>
+                <nav class="navbar">
+                    <i class="fas fa-bars mobile-nav" aria-hidden="true"></i> 
+                    <ul class="desktop-nav">
+                        <li><a class="nav-item" href="#works">Portfolio</a></li>
+                        <li><a class="nav-item" href="#about-me">About</a></li>
+                        <li><a class="nav-item" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
 
-<body id="body">
-    <header>
-        <div class="background" id="background"></div>
-        <div class="menu-small" id="menu-mobile">
-            <span><i class="fas fa-times" id="close-btn"></i></span>
-            <ul class="options">
-                <li>
-                    <a href="#portfolio" class="option">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#about" class="option">About</a>
-                </li>
-                <li>
-                    <a href="#contact" class="option">Contact</a>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="navbar">
-            <div class="mylogo">
-                <p class="logo">CB</p>
+                <nav class="navbar-mobile hidden">
+                    <div class="navbar-close-menu">
+                        <img src="./images/x.png" id="cross-sign" alt="close-menu">
+                    </div>
+                    <ul class="mobile-nav-menu">
+                        <li><a class="nav-item-link" href="#works">Portfolio</a></li>
+                        <li><a class="nav-item-link" href="#about-me">About</a></li>
+                        <li><a class="nav-item-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="desktop-nav">
-                <ul class="nav-list">
+        </header>
+
+        <section class="intro">
+            <div class="content">
+                <h1 class="about">Hi there, I am Christian <br /><span>I’m a software developer</span></h1>
+                <p class="introduction"> With two years of hands-on working experience, I created user-friendly, unique, elegant, and visually appealing applications that can be used as platforms for engaging content or as stand-alone pieces of art.
+                </p>
+
+                <ul class="page-links">
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a class="icon-list" href="https://github.com/Christianib003" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
+
                     <li>
-                        <a href="#">About</a>
+                        <a class="icon-list" href="https://www.linkedin.com/in/christian-iradukunda-byiringiro/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </li>
+
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="icon-list" href="https://angel.co/u/christian-iradukunda-byiringiro" target="_blank"><i class="fab fa-angellist"></i></a>
                     </li>
                 </ul>
-            </nav>
-            <span class="small-devices-nav"><i class="fas fa-bars" id="bars-menu"></i></span>
-        </div>
-    </header>
-    <section class="content">
-        <h1 class="head1">I'm Christian,<br>Nice to meet you!</h1>
-        <p class="head-p">I’m a software developer! I can help you build a product , feature or website
-            Look through some of my work and experience! If you like what you see and have a project you need coded,
-            don’t hestiate to contact me.
-        </p>
-        <h2 class="connect">LET'S CONNECT</h2>
-        <ul class="socials">
-            <li><a href="https://github.com/Christianib003"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/christian-iradukunda-byiringiro-657598226"><i
-                        class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </section>
-    <div class="container">
+            </div>
 
-    <section class="Works" id="portfolio">
-    </section>
-    </div>
-    <section class="About Myself" id="about">
-        <div class="about-content">
-            <h2 class="about-title">About<br> Myself</h2>
-            <p>I’m a software developer! I can help you build a product , feature or website
-                Look through some of my work and experience! If you like what you see and have a project you need coded,
-                don’t
-                hestiate to contact me.
-            </p>
-            <h2 class="connect true">LET'S CONNECT</h2>
-            <ul class="second socials true">
-                <li><a href="https://github.com/Christianib003"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/christian-iradukunda-byiringiro-657598226"><i
-                            class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-            <button type="button" class="Resume">Get my resume</button>
-        </div>
-        <section class="lang-details">
-            <ul class="lang-list">
-                <li class="lang-one">
-                    <div class="drop-list">
-                        <h3>Languages</h3>
-                        <span><i class="arrow arrow-down"></i></span>
+        </section>
+
+        <section class="arrow">
+     <div class="title">
+                <h2>My Projects</h2>
+            </div>
+
+            <div class="line">
+                <img src="./images/greenline.png" alt="greenline">
+            </div>
+        </section>
+
+        <section class="my-projects" id="works">
+            <div class="project-container">
+                    <div class="single-project">
+                        <img src="./images/stockbay.PNG" alt="">
+                        <div class="project-title">
+                            <h3>StockBay</h3>
+                        </div>
+                        <p class="project-description">This is an app that brings to users the latest stock market information of various companies.</p>
+                        <ul class="tech-stack">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                        </ul>
+    
+                        <div class="btn see-project" id="project1">
+                            <a href="https://github.com/Christianib003/stock-bay" target="_blank"><button type="button">See Project</button></a>
+                        </div>
                     </div>
-                    <ul class="know">
-                        <li class="know-lang">
-                            <div class="image-container">
-                                <img src="./Images/JS-icon.png" class="" alt="javascript icon">
-                            </div>
-                            <p class="know-pa">JavaScript</p>
-                        </li>
-                        <li class="know-lang">
-                            <div class="image-container">
-                                <img src="./Images/HTML-icon.png" class="" alt="HTML icon">
-                            </div>
-                            <p class="know-pa">HTML</p>
-                        </li>
-                        <li class="know-lang">
-                            <div class="image-container">
-                                <img src="./Images/CSS-icon.png" class="" alt="css icon">
-                            </div>
-                            <p class="know-pa">CSS</p>
-                        </li>
+                <div class="single-project">
+                    <img src="./images/bookstore.PNG" alt="">
+                    <div class="project-title">
+                        <h3>BookStore CMS</h3>
+                    </div>
+                    <p class="project-description">This is an app that stores books a user is reading and tracks their progress.</p>
+                    <ul class="tech-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>Redux</li>
                     </ul>
-                </li>
-                <li class="lang-two">
-                    <div class="frameworko">
-                        <h3>Frameworks</h3>
-                        <span><i class="arrow arrow-right"></i></span>
+
+                    <div class="btn see-project" id="project2">
+                        <a href="https://github.com/Christianib003/Bookstore_react" target="_blank"><button type="button">See Project</button></a>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <img src="./images/safedime.PNG" alt="">
+                    <div class="project-title">
+                        <h3>Safedime</h3>
+                    </div>
+                    <p class="project-description">SafeDime is an app that helps a user to manage expenses for better financial fitness.</p>
+                    <ul class="tech-stack">
+                        <li>HTML</li>
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+
+                    <div class="btn see-project" id="project3">
+                        <a href="https://github.com/Christianib003/safedime-app" target="_blank"><button type="button">See Project</button></a>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <img src="./images/pokemon.PNG" alt="">
+                    <div class="project-title">
+                        <h3>Pokemon</h3>
+                    </div>
+                    <p class="project-description">This is an app that users can use like and comment on their favorite pokemon characters</p>
+                    <ul class="tech-stack">
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+
+                    <div class="btn see-project" id="project4">
+                        <a href="https://github.com/Christianib003/Pokemon" target="_blank"><button type="button">See Project</button></a>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <img src="./images/leaderboard.PNG" alt="">
+                    <div class="project-title">
+                        <h3>Leaderboard</h3>
+                    </div>
+                    <p class="project-description">This is an app that displays the users' scores from a game</p>
+                    <ul class="tech-stack">
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                    </ul>
+
+                    <div class="btn see-project" id="project5">
+                        <a href="https://github.com/Christianib003/Leaderboard" target="_blank"><button type="button">See Project</button></a>
+                    </div>
+                </div>
+
+                <div class="single-project">
+                    <img src="./images/awesome-books.PNG" alt="">
+                    <div class="project-title">
+                        <h3>Awesome Books</h3>
+                    </div>
+                    <p class="project-description">This is an app that stores the information about the books a user plans to read.</p>
+                    <ul class="tech-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+
+                    <div class="btn see-project" id="project6">
+                        <a href="https://github.com/Christianib003/Awesome-Books-ES6" target="_blank"><button type="button">See Project</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <div class="section-title">
+                <h2 class="heading">About Me</h2>
+            </div>
+            <div class="information">
+                <p class="text">I’m an enthusiastic Full-stack web developer with two years of hands-on working experience in creating user-friendly, unique, elegant, and visually appealing applications that can be used as platforms for engaging content or as stand-alone pieces of art.
+                I am currently expanding my knowledge base in an online coding boot camp known as Microverse where I spend 40+ hours per week coding and building projects in a remote environment with other developers from all corners of the world.
+
+                If you are interested, I would like to discuss with you further what I can bring to your community.
+                </p>
+            </div>
+            <div class="btn resume-btn">
+                <a href="https://docs.google.com/document/d/1LvxOZkimBAGxjNfF5IMVQf1ZhdsBdEC8Xky5c6zAMGg/edit?usp=sharing" target="_blank"><button type="button">Get My Resume</button></a>
+            </div>
+        </section>
+
+        <section class="language">
+            
+            <ul class="lang">
+                <li class="coding-language">
+                    <img src="./images/language.svg" alt="language-icon">
+                    <div class="my-stack">
+                        <h2 class="one">Language</h2>
+                        <ul class="stack-btn">
+                            <li class="list">JavaScript</li>
+                            <li class="list">Ruby</li>
+                            <li class="list">Html</li>
+                            <li class="list">css</li>
+                        </ul>
                     </div>
                 </li>
 
-                <li class="lang-three">
-                    <div class="lango">
-                        <h3>Skills</h3>
-                        <span><i class="arrow arrow-right"></i></span>
+                <li class="coding-language">
+                    <img src="./images/framework.svg" alt="framework-icon">
+                    <div class="my-stack">
+                        <h2 class="one">Frameworks</h2>
+                        <ul class="stack-btn">
+                            <li class="list">React</li>
+                            <li class="list">Ruby on rails</li>
+                            <li class="list">Bootstrap</li>
+                            <li class="list">React Native</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="coding-language">
+                    <img src="./images/skills.svg" alt="skills-icon">
+                    <div class="my-stack">
+                        <h2 class="one">Skills</h2>
+                        <ul class="stack-btn">
+                            <li class="list">Git</li>
+                            <li class="list">Github</li>
+                            <li class="list">PostgreSQL</li>
+                            <li class="list">NPM</li>
+                            <li class="list">Netlify</li>
+                        </ul>
                     </div>
                 </li>
             </ul>
         </section>
-    </section>
-    <section class="last" id="contact">
-        <div class="footer">
-        <h2 class="contact-title">Contact me</h2>
-        <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <br>
-        <form action="https://formspree.io/f/mvolzwlj" method="POST" class="contact-form">
-            <input type="text" name="Name" class="area name" placeholder="Name" maxlength="30" required>
-            <br>
-            <input type="email" name="email" class="area email" placeholder="Email" id="email-input" required>
-            <br>
-            <textarea name="message" class="area message" maxlength="500" placeholder="Write your message here" required></textarea>
-            <br>
-            <p class="error-message">Invalid email! Please use lowercase characters.</p>
-            <button type="submit" class="submit">Get in touch</button>
-        </form>
-        </div>
-        <div class="scroll-bar"></div>
-    </section>
-    <script src="./app.js"></script>
+
+
+        <section class="footer-nav" id="contact">
+            <div class="footer-grid">
+                <p class="paragraph">
+                    I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </p>
+
+                <form action="https://formspree.io/f/mvolzwlj" method="post" id="my-form">
+                    <input type="text" placeholder="Full name" maxlength="30" name="full-name" id="name" required>
+                    <input type="email" placeholder="Email address" name="email" id="email" required>
+                    <textarea name="message" placeholder="Typing something" maxlength="500" id="message" required></textarea>
+                    <input type="submit" class="btn-green" value="Get in touch">
+                    <small id="error-message" class="error"></small>
+                </form>
+            </div>
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+        <hr>
+
+
+        <footer>
+            <ul class="page-links">
+                <li>
+                    <a class="icon-list" href="https://github.com/Christianib003" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+
+                <li>
+                    <a class="icon-list" href="https://www.linkedin.com/in/christian-iradukunda-byiringiro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+
+                <li>
+                    <a class="icon-list" href="https://angel.co/u/christian-iradukunda-byiringiro" target="_blank"><i class="fab fa-angellist"></i></a>
+                </li>
+            </ul>
+            <h3 class="mail"><a href="mailto:acholahlynette111@gmail.com" target="_blank">christianib003@gmail.com</a></h3>
+        </footer> 
+<script src="./script.js"></script>
+<script src="popup.js"></script>
+<script src="./storage.js"></script>
 </body>
 </html>
