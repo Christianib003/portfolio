@@ -357,7 +357,6 @@ hr {
   text-align: center;
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
-  height: auto;
 }
 
 .coding-language {
@@ -719,5 +718,25 @@ footer {
 
   .mail {
     display: none;
+  }
+
+  .resume-btn {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resume-btn {
+    margin-top: 500px;
+  }
+
+  .textme {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resume-btn {
+    margin-top: 500px;
   }
 }
