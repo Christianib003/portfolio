@@ -458,17 +458,14 @@ textarea {
 
 .btn-green {
   background-color: #36b37f;
-  height: 48px;
-  width: 129px;
   border-radius: 4px;
   padding: 12px;
-  display: flex;
-  margin: 10px auto;
   color: white;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
+  border: none;
 }
 
 footer {
