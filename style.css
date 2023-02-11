@@ -513,9 +513,9 @@ footer {
     align-items: center;
     position: fixed;
     background-color: white;
-    border-bottom: #36b37e;
     top: -10px;
     z-index: 2;
+    height: auto;
   }
 
   .logo {
@@ -574,7 +574,11 @@ footer {
   }
 
   .page-links a:hover {
-    background: rgb(51, 51, 165);
+    cursor: pointer;
+  }
+
+  .page-links a i:hover {
+    transform: scale(1.2);
   }
 
   .down-arrow {
@@ -733,5 +737,18 @@ footer {
 @media screen and (max-width: 768px) {
   .resume-btn {
     margin-top: 500px;
+  }
+
+  header {
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: -10px;
+    z-index: 2;
+    height: auto;
+    width: 97%;
+    padding-right: 10px;
+    margin: auto;
+    top: 0;
   }
 }
